@@ -1,0 +1,10 @@
+/Assets/Fantasy Skybox FREE
+/Assets/Fantasy Forest Environment Free Sample
+/Temp
+/Library
+/Logs
+/obj
+/Assets/*.meta
+/Assets/_TerrainAutoUpgrade
+/Assets/**.meta
+/Assets/*/*.meta
