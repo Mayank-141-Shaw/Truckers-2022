@@ -53,8 +53,10 @@
     <UnityVersion>2021.2.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\LightingPreset.cs" />
     <Compile Include="Assets\Scripts\TrafficLightController.cs" />
     <Compile Include="Assets\Scripts\DayNightCycleController.cs" />
+    <Compile Include="Assets\Scripts\LightingManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
@@ -823,6 +825,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="RoadArchitect.csproj">
+      <Project>{F246E561-6575-5798-7120-121857428321}</Project>
+      <Name>RoadArchitect</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

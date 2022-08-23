@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FC3C8BC4-9E8B-4FB7-D406-8BF42A4619D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadArchitect", "RoadArchitect.csproj", "{F246E561-6575-5798-7120-121857428321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{FC3C8BC4-9E8B-4FB7-D406-8BF42A4619D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3C8BC4-9E8B-4FB7-D406-8BF42A4619D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3C8BC4-9E8B-4FB7-D406-8BF42A4619D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F246E561-6575-5798-7120-121857428321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F246E561-6575-5798-7120-121857428321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F246E561-6575-5798-7120-121857428321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F246E561-6575-5798-7120-121857428321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
